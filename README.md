@@ -17,17 +17,17 @@ Node V6
 This contracts is built using truffle framework and TestRPC. 
 To install and test the smart contract run the commands below :
 
-npm install -g truffle
-npm install -g ethereumjs-testrpc 
+$npm install -g truffle
+$npm install -g ethereumjs-testrpc 
 
 Run the Project
 Once the setup is complete. Clone this repository in your local using 
-git clone https://github.com/Yangglobal/yangtoken.git
-cd yangtoken
-truffle compile will compile the contratcts 
+$git clone https://github.com/Yangglobal/yangtoken.git
+$cd yangtoken
+$truffle compile // will compile the contratcts 
 
 Start the testRPC 
-truffle migrate will deploy the contract in test network. You can alternatively deploy it in any on of the real networks and generate the tokens. 
+$truffle migrate //will deploy the contract in test network. You can alternatively deploy it in any on of the real networks and generate the tokens. 
 
 # Security
 This is a secure, tested and community-audited code.
